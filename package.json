@@ -1,0 +1,12 @@
+{
+    "name": "api-joke",
+    "version": "1.0.0",
+    "description": "API de chistes para TP Ingenieria de Software",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^5.3.0"
+    }
+}

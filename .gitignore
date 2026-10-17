@@ -1,0 +1,11 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos del sistema operativo o temporales
+.DS_Store
+Thumbs.db
+
+# Archivos de logs de npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
