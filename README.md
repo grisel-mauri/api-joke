@@ -25,25 +25,20 @@ Docker Desktop (con soporte para WSL 2 activo)
 
 Para correr la aplicación aislada dentro de un contenedor Docker:
 1- Abre la terminal
+
 2- Clona el repositorio: Descargas el proyecto desde GitHub a tu PC usando el enlace público con el comando: 
-    ```bash
     git clone https://github.com/grisel-mauri/api-joke 
-    ```
+
 3- Ubicate en la carpeta raiz del proyecto con el comando: 
-    ```bash
     cd api-joke
-    ```
+
 4- Ejecuta el siguiente comando para que Docker empaquete tu aplicación:
-    ```bash
     docker build -t api-joke .
-    ```
+
 5- Ejecuta el contenedor
-    ```bash
     docker run -p 3000:3000 api-joke
-    ```
+
 6- Para verificar el resultado abre tu navegador e ingresa a:
-    ```bash
     http://localhost:3000/joke
-    ```
 
 
